@@ -1,0 +1,9 @@
+/**
+ * 1、创建spring：maven-Create from... - 选择archetype-quickstart,一路next
+ * 2、创建beans文件夹，创建bean
+ * 3、配置ApplicationContext.xml文件，将bean交给spring管理
+ * 4、创建test，测试spring管理bean
+ * 5、new一个ClassPathXmlApplicationContext读取配置文件
+ * 6、将读取的对象转换为bean类型，调用bean方法
+ *
+ */

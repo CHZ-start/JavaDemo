@@ -1,0 +1,25 @@
+2022-07-10 10:47:24,929 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@de3a06f
+2022-07-10 10:51:23,653 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@2df32bf7
+2022-07-10 10:51:43,389 [DEBUG] (org.springframework.context.support.ClassPathXmlApplicationContext.main): Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b71769e
+2022-07-10 10:51:43,492 [DEBUG] (org.springframework.beans.factory.xml.XmlBeanDefinitionReader.main): Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2022-07-10 10:51:43,514 [DEBUG] (org.springframework.beans.factory.support.DefaultListableBeanFactory.main): Creating shared instance of singleton bean 'firstSpring'
+2022-07-10 10:51:43,557 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@3bd94634
+2022-07-10 10:52:33,186 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@3bd94634
+2022-07-10 10:53:11,097 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@2df32bf7
+2022-07-10 10:53:23,498 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@3bd94634
+2022-07-10 10:57:52,519 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@3bd94634
+2022-07-10 14:10:26,049 [INFO ] (com.chz.AppTest.main): bean01对象name属性：0001
+2022-07-10 14:16:35,875 [WARN ] (org.springframework.context.support.ClassPathXmlApplicationContext.main): Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'thirdSpring' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NullValueInNestedPathException: Invalid property 'bean01' of bean class [com.chz.spring.beans.FirstBean]: Value of nested property 'bean01' is null
+2022-07-10 14:16:54,247 [WARN ] (org.springframework.context.support.ClassPathXmlApplicationContext.main): Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'thirdSpring' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NullValueInNestedPathException: Invalid property 'bean01' of bean class [com.chz.spring.beans.FirstBean]: Value of nested property 'bean01' is null
+2022-07-10 14:17:59,531 [WARN ] (org.springframework.context.support.ClassPathXmlApplicationContext.main): Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'thirdSpring' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NullValueInNestedPathException: Invalid property 'bean01' of bean class [com.chz.spring.beans.FirstBean]: Value of nested property 'bean01' is null
+2022-07-10 14:20:20,993 [INFO ] (com.chz.AppTest.main): 级联属性赋值 id：0002
+2022-07-10 14:21:31,101 [INFO ] (com.chz.AppTest.main): 级联属性赋值 id：级联属性赋值
+2022-07-10 14:21:35,477 [INFO ] (com.chz.AppTest.main): bean对象name属性：com.chz.spring.beans.FirstBean@32cf48b7
+2022-07-10 14:21:35,492 [INFO ] (com.chz.AppTest.main): bean01对象name属性：级联属性赋值
+2022-07-10 14:21:35,508 [INFO ] (com.chz.AppTest.main): 级联属性赋值 id：级联属性赋值
+2022-07-10 14:29:58,991 [INFO ] (com.chz.AppTest.main): 构造器注入：HappyTeam{teamName='构造器注入', memberCount=10, memberSalary=1000.5}
+2022-07-10 14:44:37,383 [INFO ] (com.chz.AppTest.main): p名称空间
+2022-07-10 18:53:01,957 [INFO ] (com.chz.AppTest.main): 集合类型：[memberList01, memberList02, memberList03, memberList04]
+2022-07-10 19:03:10,123 [INFO ] (com.chz.AppTest.main): 自动装配：级联属性赋值
+2022-07-10 20:44:53,601 [INFO ] (com.chz.AppTest.main): 集合类型的bean[HappyMachine{memberList=[machineOne]}, HappyMachine{memberList=[machineTwo]}, HappyMachine{memberList=[machineThree]}]
+2022-07-10 21:29:51,961 [INFO ] (com.chz.AppTest.main): FactoryBean创建对象

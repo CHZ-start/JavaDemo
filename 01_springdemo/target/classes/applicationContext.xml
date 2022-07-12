@@ -15,10 +15,10 @@
         <property name="bean01" ref="bean01"/>
     </bean>
     <!--级联属性赋值-->
-    <bean name="thirdSpring" class="com.chz.spring.beans.FirstBean">
-        <property name="bean01" ref="bean01"/>
-        <property name="bean01.id" value="级联属性赋值"/>
-    </bean>
+<!--    <bean name="thirdSpring" class="com.chz.spring.beans.FirstBean">-->
+<!--        <property name="bean01" ref="bean01"/>-->
+<!--        <property name="bean01.id" value="级联属性赋值"/>-->
+<!--    </bean>-->
     <!--构造器注入-->
     <bean name="happyTeam" class="com.chz.spring.beans.HappyTeam">
         <constructor-arg value="构造器注入"/>
@@ -26,7 +26,7 @@
         <constructor-arg value="1000.5"/>
     </bean>
     <!--p名称空间-->
-    <bean name="pBean01" class="com.chz.spring.beans.Bean01"  p:id="p名称空间"/>
+<!--    <bean name="pBean01" class="com.chz.spring.beans.Bean01"  p:id="p名称空间"/>-->
 
     <bean name="happyTeamList" class="com.chz.spring.beans.HappyTeam">
         <constructor-arg value="构造器注入"/>
@@ -42,6 +42,8 @@
         </property>
     </bean>
     <bean name="autoWire" class="com.chz.spring.beans.FirstBean" autowire="byName"/>
+
+    <bean name="autoWireByType" class="com.chz.spring.beans.FirstBean" autowire="byType"/>
 
     <util:list id="machineList">
         <bean class="com.chz.spring.beans.HappyMachine">
@@ -59,9 +61,19 @@
         <property name="machineName" value="FactoryBean创建对象"/>
     </bean>
 
-    <bean name="happyComponent" class="com.chz.spring.beans.HappyComponent" init-method="happyInitMethod" destroy-method="happyDestroyMethod">
-        <property name="happyname" value="初始化销毁"/>
+<!--    <bean name="happyComponent" class="com.chz.spring.beans.HappyComponent" init-method="happyInitMethod" destroy-method="happyDestroyMethod">-->
+<!--        <property name="happyname" value="初始化销毁"/>-->
+<!--    </bean>-->
+
+<!--    <bean class="com.chz.spring.beans.InitHelloWorld"/>-->
+    <bean name="textEditor" class="com.chz.spring.beans.TextEditor" autowire="constructor">
+        <constructor-arg value="Generic Text Editor"/>
     </bean>
 
-    <bean class="com.chz.spring.beans.InitHelloWorld"/>
+    <bean name="SpellChecker" class="com.chz.spring.beans.SpellChecker" />
+
+    <bean name="autoCon" class="com.chz.spring.beans.FirstBean" autowire="constructor">
+        <constructor-arg name="name" value="构造器自动装配"/>
+    </bean>
+
 </beans>

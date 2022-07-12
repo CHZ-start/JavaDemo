@@ -91,4 +91,22 @@ public class AppTest {
         happyComponent.getHappyname();
         abstractApplicationContext.registerShutdownHook();
     }
+    @Test
+    public void test12(){
+        FirstBean autoWireByType = (FirstBean) applicationContext.getBean("autoWireByType");
+        Bean01 bean01 = autoWireByType.getBean01();
+        log.info("根据类型自动装配" + bean01.getId());
+    }
+    @Test
+    public void test13(){
+        TextEditor textEditor = (TextEditor) applicationContext.getBean("textEditor");
+        textEditor.spellCheck();
+    }
+    @Test
+    public void test14(){
+        FirstBean autoCon = (FirstBean) applicationContext.getBean("autoCon");
+        Bean01 bean01 = autoCon.getBean01();
+        log.info("构造器装配" + bean01.getId());
+
+    }
 }

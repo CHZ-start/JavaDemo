@@ -1,70 +1,75 @@
-2022-07-11 17:13:11,983 [INFO ] (com.chz.AppTest.main): 执行：初始化销毁
-2022-07-11 17:14:33,452 [INFO ] (com.chz.AppTest.main): 执行：初始化销毁
-2022-07-11 17:15:19,351 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:15:19,361 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:15:19,361 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent销毁
-2022-07-11 17:15:19,361 [INFO ] (com.chz.AppTest.main): 执行：初始化销毁
-2022-07-11 17:15:52,946 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:15:52,956 [INFO ] (com.chz.AppTest.main): 执行：初始化销毁
-2022-07-11 17:21:24,244 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:21:24,283 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:21:24,287 [INFO ] (com.chz.spring.beans.HappyComponent.SpringContextShutdownHook): HappyComponent销毁
-2022-07-11 17:30:33,393 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : firstSpring
-2022-07-11 17:30:33,395 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : firstSpring
-2022-07-11 17:30:33,396 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : bean01
-2022-07-11 17:30:33,396 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : bean01
-2022-07-11 17:30:33,397 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : secondSpring
-2022-07-11 17:30:33,397 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : secondSpring
-2022-07-11 17:30:33,398 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : thirdSpring
-2022-07-11 17:30:33,398 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : thirdSpring
-2022-07-11 17:30:33,412 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeam
-2022-07-11 17:30:33,412 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeam
-2022-07-11 17:30:33,412 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : pBean01
-2022-07-11 17:30:33,412 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : pBean01
-2022-07-11 17:30:33,415 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeamList
-2022-07-11 17:30:33,416 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeamList
-2022-07-11 17:30:33,416 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : autoWire
-2022-07-11 17:30:33,416 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : autoWire
-2022-07-11 17:30:33,419 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#396f6598
-2022-07-11 17:30:33,420 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#396f6598
-2022-07-11 17:30:33,420 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#394e1a0f
-2022-07-11 17:30:33,420 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#394e1a0f
-2022-07-11 17:30:33,420 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#27a5f880
-2022-07-11 17:30:33,421 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#27a5f880
-2022-07-11 17:30:33,428 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : machineList
-2022-07-11 17:30:33,428 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : machineList
-2022-07-11 17:30:33,430 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyFactoryBean
-2022-07-11 17:30:33,430 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyFactoryBean
-2022-07-11 17:30:33,431 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyComponent
-2022-07-11 17:30:33,431 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:30:33,431 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyComponent
-2022-07-11 17:30:33,463 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : firstSpring
-2022-07-11 17:30:33,463 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : firstSpring
-2022-07-11 17:30:33,463 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : bean01
-2022-07-11 17:30:33,463 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : bean01
-2022-07-11 17:30:33,464 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : secondSpring
-2022-07-11 17:30:33,464 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : secondSpring
-2022-07-11 17:30:33,464 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : thirdSpring
-2022-07-11 17:30:33,464 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : thirdSpring
-2022-07-11 17:30:33,465 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeam
-2022-07-11 17:30:33,465 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeam
-2022-07-11 17:30:33,465 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : pBean01
-2022-07-11 17:30:33,465 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : pBean01
-2022-07-11 17:30:33,467 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeamList
-2022-07-11 17:30:33,468 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeamList
-2022-07-11 17:30:33,468 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : autoWire
-2022-07-11 17:30:33,468 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : autoWire
-2022-07-11 17:30:33,469 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#3ee0fea4
-2022-07-11 17:30:33,469 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#3ee0fea4
-2022-07-11 17:30:33,469 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#48524010
-2022-07-11 17:30:33,469 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#48524010
-2022-07-11 17:30:33,470 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#4b168fa9
-2022-07-11 17:30:33,470 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#4b168fa9
-2022-07-11 17:30:33,470 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : machineList
-2022-07-11 17:30:33,471 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : machineList
-2022-07-11 17:30:33,471 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyFactoryBean
-2022-07-11 17:30:33,471 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyFactoryBean
-2022-07-11 17:30:33,471 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyComponent
-2022-07-11 17:30:33,471 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
-2022-07-11 17:30:33,472 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyComponent
-2022-07-11 17:30:33,475 [INFO ] (com.chz.spring.beans.HappyComponent.SpringContextShutdownHook): HappyComponent销毁
+2022-07-12 09:03:18,625 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : firstSpring
+2022-07-12 09:03:18,627 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : firstSpring
+2022-07-12 09:03:18,628 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : bean01
+2022-07-12 09:03:18,628 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : bean01
+2022-07-12 09:03:18,629 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : secondSpring
+2022-07-12 09:03:18,629 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : secondSpring
+2022-07-12 09:03:18,630 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : thirdSpring
+2022-07-12 09:03:18,630 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : thirdSpring
+2022-07-12 09:03:18,644 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeam
+2022-07-12 09:03:18,645 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeam
+2022-07-12 09:03:18,648 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeamList
+2022-07-12 09:03:18,648 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeamList
+2022-07-12 09:03:18,649 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : autoWire
+2022-07-12 09:03:18,649 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : autoWire
+2022-07-12 09:03:18,651 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : autoWireByType
+2022-07-12 09:03:18,651 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : autoWireByType
+2022-07-12 09:03:18,654 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#184f6be2
+2022-07-12 09:03:18,655 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#184f6be2
+2022-07-12 09:03:18,655 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#56aac163
+2022-07-12 09:03:18,655 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#56aac163
+2022-07-12 09:03:18,656 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#1f7030a6
+2022-07-12 09:03:18,656 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#1f7030a6
+2022-07-12 09:03:18,664 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : machineList
+2022-07-12 09:03:18,665 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : machineList
+2022-07-12 09:03:18,666 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyFactoryBean
+2022-07-12 09:03:18,666 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyFactoryBean
+2022-07-12 09:03:18,667 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyComponent
+2022-07-12 09:03:18,668 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 09:03:18,668 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyComponent
+2022-07-12 09:04:02,111 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : firstSpring
+2022-07-12 09:04:02,112 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : firstSpring
+2022-07-12 09:04:02,113 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : bean01
+2022-07-12 09:04:02,114 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : bean01
+2022-07-12 09:04:02,114 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : secondSpring
+2022-07-12 09:04:02,114 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : secondSpring
+2022-07-12 09:04:02,115 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : thirdSpring
+2022-07-12 09:04:02,115 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : thirdSpring
+2022-07-12 09:04:02,129 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeam
+2022-07-12 09:04:02,130 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeam
+2022-07-12 09:04:02,133 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyTeamList
+2022-07-12 09:04:02,133 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyTeamList
+2022-07-12 09:04:02,134 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : autoWire
+2022-07-12 09:04:02,134 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : autoWire
+2022-07-12 09:04:02,136 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : autoWireByType
+2022-07-12 09:04:02,137 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : autoWireByType
+2022-07-12 09:04:02,140 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#184f6be2
+2022-07-12 09:04:02,140 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#184f6be2
+2022-07-12 09:04:02,140 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#56aac163
+2022-07-12 09:04:02,140 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#56aac163
+2022-07-12 09:04:02,141 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : com.chz.spring.beans.HappyMachine#1f7030a6
+2022-07-12 09:04:02,141 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : com.chz.spring.beans.HappyMachine#1f7030a6
+2022-07-12 09:04:02,148 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : machineList
+2022-07-12 09:04:02,149 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : machineList
+2022-07-12 09:04:02,150 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyFactoryBean
+2022-07-12 09:04:02,150 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyFactoryBean
+2022-07-12 09:04:02,151 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): BeforeInitialization : happyComponent
+2022-07-12 09:04:02,151 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 09:04:02,152 [INFO ] (com.chz.spring.beans.InitHelloWorld.main): AfterInitialization : happyComponent
+2022-07-12 09:04:02,162 [INFO ] (com.chz.AppTest.main): 根据类型自动装配级联属性赋值
+2022-07-12 09:04:21,815 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 09:04:21,825 [INFO ] (com.chz.AppTest.main): 根据类型自动装配级联属性赋值
+2022-07-12 21:01:12,983 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:15:40,170 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:16:36,246 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:20:45,907 [WARN ] (org.springframework.context.support.ClassPathXmlApplicationContext.main): Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'autoWireByType' defined in class path resource [applicationContext.xml]: Unsatisfied dependency expressed through bean property 'bean01'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.chz.spring.beans.Bean01' available: expected single matching bean but found 2: bean01,Bean01
+2022-07-12 21:21:12,751 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:42:42,669 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:43:51,893 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:43:51,920 [INFO ] (com.chz.AppTest.main): 构造器装配级联属性赋值
+2022-07-12 21:46:54,641 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:46:54,669 [INFO ] (com.chz.AppTest.main): 构造器装配级联属性赋值
+2022-07-12 21:47:21,804 [INFO ] (com.chz.spring.beans.HappyComponent.main): HappyComponent初始化
+2022-07-12 21:47:21,840 [INFO ] (com.chz.AppTest.main): 构造器装配级联属性赋值
+2022-07-12 21:48:08,370 [INFO ] (com.chz.AppTest.main): 构造器装配级联属性赋值
+2022-07-12 21:48:45,726 [INFO ] (com.chz.AppTest.main): 构造器装配引入已声明bean

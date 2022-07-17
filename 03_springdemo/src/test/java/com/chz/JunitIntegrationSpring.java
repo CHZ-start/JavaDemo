@@ -1,6 +1,6 @@
 package com.chz;
 
-
+import com.chz.spring.EmployeeService;
 import com.chz.spring.IWork;
 import com.chz.spring.Task;
 import com.chz.spring.config.TextEditorConfig;
@@ -39,6 +39,9 @@ public class JunitIntegrationSpring {
     @Autowired
     private IWork work;
 
+    @Autowired
+    EmployeeService employeeService;
+
     @Test
     public void testSecond(){
         log.info("junit4测试类" + textEditorConfig);
@@ -56,5 +59,14 @@ public class JunitIntegrationSpring {
     @Test
     public void test03(){
         task.doSomething("as home");
+    }
+    @Test
+    public void test04(){
+        log.info("makeSomething执行：" + task.makeSomething("我是返回值"));
+    }
+
+    @Test
+    public void test05(){
+        employeeService.getEmpList();
     }
 }

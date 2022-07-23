@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <h1>首页</h1>
+    <a th:href="@{/say/hello/to/spring/mvc}">HelloWorld</a><br/>
+
+    <form th:action="@{/post}" method="post">
+        <button type="submit">提交</button>
+    </form><br/>
+    <form th:action="@{/GetMap}" method="get">
+        <button type="submit">get提交</button>
+    </form>
+    <form th:action="@{/value}" method="post">
+        <input type="text" name="value"/>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>

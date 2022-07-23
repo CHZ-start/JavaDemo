@@ -1,0 +1,244 @@
+2022-07-21 22:13:38.762 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-21 22:13:39.325 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-21 22:13:39.664 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 896 ms
+2022-07-21 22:13:39.699 [http-nio-8086-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2022-07-21 22:13:39.712 [http-nio-8086-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2022-07-21 22:13:39.849 [http-nio-8086-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2022-07-21 22:13:44.804 [http-nio-8086-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2022-07-21 22:17:02.841 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-21 22:17:03.362 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-21 22:17:03.727 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 881 ms
+2022-07-21 22:17:03.762 [http-nio-8086-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /demo/
+2022-07-21 22:17:03.774 [http-nio-8086-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2022-07-21 22:17:03.903 [http-nio-8086-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /demo/
+2022-07-21 22:19:28.671 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-21 22:19:29.514 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-21 22:19:29.923 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1247 ms
+2022-07-21 22:19:30.319 [http-nio-8086-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8086-exec-1] Exception processing template "portal": An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templatesportal.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templatesportal.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/templatesportal.html]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223)
+	... 37 common frames omitted
+2022-07-21 22:19:30.352 [http-nio-8086-exec-2] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8086-exec-2] Exception processing template "portal": An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templatesportal.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templatesportal.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/templatesportal.html]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223)
+	... 37 common frames omitted
+2022-07-21 22:19:30.486 [http-nio-8086-exec-3] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8086-exec-3] Exception processing template "portal": An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templatesportal.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templatesportal.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/templatesportal.html]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223)
+	... 37 common frames omitted
+2022-07-21 22:20:23.496 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-21 22:20:24.349 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-21 22:20:24.770 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1269 ms
+2022-07-21 22:20:27.326 [http-nio-8086-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /@%7B/say/hello/to/spring/mvc%7D
+2022-07-21 22:22:22.011 [http-nio-8086-exec-7] INFO  com.chz.handler.HelloHandler - 
+2022-07-21 22:22:24.818 [http-nio-8086-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /@%7B/say/hello/to/spring/mvc%7D
+2022-07-21 22:23:24.368 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-21 22:23:25.166 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-21 22:23:25.575 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1202 ms
+2022-07-21 22:23:51.253 [http-nio-8086-exec-6] INFO  com.chz.handler.HelloHandler - 
+2022-07-21 22:23:53.210 [http-nio-8086-exec-8] INFO  com.chz.handler.HelloHandler - 
+2022-07-23 21:20:09.852 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:20:10.205 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:20:10.386 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 532 ms
+2022-07-23 21:20:10.930 [http-nio-8086-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2022-07-23 21:21:24.617 [http-nio-8086-exec-6] INFO  com.chz.handler.HelloHandler - 
+2022-07-23 21:24:32.284 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:24:32.624 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:24:32.801 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 515 ms
+2022-07-23 21:28:51.765 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:28:52.116 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:28:52.296 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 528 ms
+2022-07-23 21:28:56.050 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - ���Գɹ�
+2022-07-23 21:28:56.054 [http-nio-8086-exec-5] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8086-exec-5] Exception processing template "post": An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templates/post.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "ServletContext resource [/WEB-INF/templates/post.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:649)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/templates/post.html]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223)
+	... 37 common frames omitted
+2022-07-23 21:31:58.326 [http-nio-8086-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:31:58.693 [http-nio-8086-exec-2] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-2] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:31:58.880 [http-nio-8086-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 552 ms
+2022-07-23 21:32:00.970 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - ���Գɹ�
+2022-07-23 21:32:08.421 [http-nio-8086-exec-6] INFO  com.chz.handler.HelloHandler - ���Գɹ�
+2022-07-23 21:34:52.691 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:34:53.036 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:34:53.214 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 521 ms
+2022-07-23 21:34:55.339 [http-nio-8086-exec-4] INFO  com.chz.handler.HelloHandler - 测试成功
+2022-07-23 21:37:32.358 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:37:32.705 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:37:32.881 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 520 ms
+2022-07-23 21:37:37.014 [http-nio-8086-exec-4] INFO  com.chz.handler.HelloHandler - GetMap测试成功
+2022-07-23 21:45:51.205 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 21:45:51.554 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 21:45:51.734 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 526 ms
+2022-07-23 21:46:00.562 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 传入值ä½ å¥½springmvc
+2022-07-23 22:00:58.999 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 22:00:59.348 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 22:00:59.529 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 528 ms
+2022-07-23 22:01:10.212 [http-nio-8086-exec-4] INFO  com.chz.handler.HelloHandler - 传入值：ä½ å¥½springmvc
+2022-07-23 22:03:51.399 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-23 22:03:51.735 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-23 22:03:51.917 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 516 ms
+2022-07-23 22:04:17.828 [http-nio-8086-exec-6] INFO  com.chz.handler.HelloHandler - 传入值：你好springmvc

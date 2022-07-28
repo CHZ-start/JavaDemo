@@ -242,3 +242,29 @@ Caused by: java.io.FileNotFoundException: Could not open ServletContext resource
 2022-07-23 22:03:51.735 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
 2022-07-23 22:03:51.917 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 516 ms
 2022-07-23 22:04:17.828 [http-nio-8086-exec-6] INFO  com.chz.handler.HelloHandler - 传入值：你好springmvc
+2022-07-25 22:06:26.245 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-25 22:06:27.058 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-25 22:06:27.453 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1200 ms
+2022-07-25 22:06:28.733 [http-nio-8086-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2022-07-25 22:06:37.401 [http-nio-8086-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required List parameter 'postlist' is not present]
+2022-07-25 22:10:25.749 [http-nio-8086-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-25 22:10:26.519 [http-nio-8086-exec-2] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-2] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-25 22:10:26.923 [http-nio-8086-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1169 ms
+2022-07-25 22:10:41.485 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 获取参数列表Brazil
+2022-07-25 22:10:41.485 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 获取参数列表German
+2022-07-25 22:10:41.485 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 获取参数列表French
+2022-07-25 22:10:41.485 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 获取参数列表Holland
+2022-07-25 22:10:41.485 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 获取参数列表Italian
+2022-07-25 22:10:41.485 [http-nio-8086-exec-5] INFO  com.chz.handler.HelloHandler - 获取参数列表China
+2022-07-25 22:20:43.552 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-25 22:20:44.324 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-25 22:20:44.723 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1165 ms
+2022-07-25 22:20:59.604 [http-nio-8086-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /emp/save
+2022-07-25 22:21:59.085 [http-nio-8086-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-25 22:21:59.833 [http-nio-8086-exec-4] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-4] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-25 22:22:00.242 [http-nio-8086-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1151 ms
+2022-07-25 22:22:12.969 [http-nio-8086-exec-3] INFO  com.chz.handler.HelloHandler - Employee{empId=null, empName='人世间', empAge=12, empSalary=12332.0}
+2022-07-25 22:27:46.885 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'DispatcherServlet'
+2022-07-25 22:27:47.678 [http-nio-8086-exec-1] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][http-nio-8086-exec-1] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-07-25 22:27:48.075 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1185 ms
+2022-07-25 22:27:55.856 [http-nio-8086-exec-4] INFO  com.chz.handler.HelloHandler - Employee{empId=1, empName='人世间', empAge=12, empSalary=12332.0}

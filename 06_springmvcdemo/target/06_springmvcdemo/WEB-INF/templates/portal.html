@@ -18,5 +18,24 @@
         <input type="text" name="value"/>
         <button type="submit">提交</button>
     </form>
+
+    <form th:action="@{/postlist}" method="post">
+        <input type="checkbox" name="team" value="Brazil" />巴西
+        <input type="checkbox" name="team" value="German" />德国
+        <input type="checkbox" name="team" value="French"/>法国
+        <input type="checkbox" name="team" value="Holland"/>荷兰
+        <input type="checkbox" name="team" value="Italian"/>意大利
+        <input type="checkbox" name="team" value="China"/>中国
+        <br/>
+        <input type="submit" value="保存">
+    </form>
+
+    <form th:action="@{/emp/save}" method="post">
+        工号：<input type="text" name="empId"/><br/>
+        姓名：<input type="text" name="empName"/><br/>
+        年龄：<input type="text" name="empAge"/><br/>
+        工资：<input type="text" name="empSalary"/><br/>
+        <input type="submit" value="保存"/>
+    </form>
 </body>
 </html>

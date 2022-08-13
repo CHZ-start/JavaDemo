@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+input{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 500px;
+    font-size: 30px;
+    color: coral;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+.box{
+    height: auto;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+}

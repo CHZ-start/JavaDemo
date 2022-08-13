@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script>
+        window.onload = function(){
+            var div1 = document.getElementById("div1");
+            var btn = document.getElementById("btn");
+            var btn2 = document.querySelector("#btn2");
+            btn.onclick = function () {
+                div1.innerText = "我被改变了";
+            }
+            btn2.onclick = function () {
+                div1.innerText = "我还原了";
+            }
+            var name = document.getElementsByName("name");
+            var div = document.getElementsByTagName("div");
+            div[0].innerText = "我是标签";
+            var class1 = document.getElementsByClassName("class");
+            class1[0].innerHTML = "我是class";
+
+            var p5 = document.createElement("p");
+            var text = document.createTextNode("我是新文本");
+            p5.appendChild(text);
+            p5.setAttribute("id","p5");
+            var div2 = document.getElementById("div2");
+            div2.appendChild(p5);
+
+            var p1 = document.getElementById("p1");
+            var p3 = document.createElement("p");
+            var text1 = document.createTextNode("我是新文本");
+            p3.setAttribute("id","p3")
+            p3.appendChild(text1);
+            div2.insertBefore(p3,p1);
+
+            var p2 = document.getElementById("p2");
+            p2.remove();
+
+
+        };
+    </script>
+</head>
+<body>
+    <div id="div1">我是div</div>
+    <input type="button" id="btn" value="修改">
+    <input type="button" id="btn2" value="还原">
+    <div name="name">123</div>
+    <div class="class"></div>
+    <div id="div2">
+        <p id="p1">这是一个段落。</p>
+        <p id="p2">这是另一个段落。</p>
+    </div>
+    <div onclick="this.innerHTML=Date()">现在时间是？</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/msg.css">
+    <script rel="script" src="js/jquery-3.3.1.min.js"></script>
+    <script rel="script" src="js/bootstrap.min.js"></script>
+    <script rel="script" src="js/msg.js"></script>
+</head>
+<body>
+    <div class="container-fluid box">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 box-center">
+                <div class="col-md-4 box-left">
+                    <h1>聊天室</h1>
+                    <p>昵称：<input id="name" type="text"></p><p>登录时间：<p id="time"></p></p>
+                </div>
+                <div class="col-md-8 box-right">
+                    <div class="col-md-12 box-top" id="content">
+<!--                        <p id="sendtime">2022/8/8 14:56</p>-->
+<!--                        <p id="sendmsg">Hello javascript</p>-->
+                    </div>
+                    <div class="col-md-12 box-bottom">
+                        <textarea id="textarea"></textarea>
+                        <button type="button" class="btn btn-default sendbutton">发送</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</body>
+</html>

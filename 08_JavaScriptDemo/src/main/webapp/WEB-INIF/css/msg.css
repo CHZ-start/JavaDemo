@@ -1,0 +1,48 @@
+.box{
+    position: absolute;
+    background-color: #3c3c3c;
+    width: 100%;
+    height: 100%;
+}
+.box-center{
+    height: 720px;
+    border: 1px solid #9d9d9d;
+    background-color: #9d9d9d;
+}
+.box-left{
+    height: 710px;
+    border: 1px solid #c1e2b3;
+    background-color: #c1e2b3;
+}
+.box-right{
+    height: 710px;
+    border: 1px solid #5bc0de;
+    background-color: #5bc0de;
+}
+.box-top{
+    height: 485px;
+    background-color: #adadad;
+    overflow: auto;
+}
+.box-bottom{
+    height: 215px;
+    background-color: #ffffff;
+}
+#sendtime{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.sendbutton{
+    margin-top: 5px;
+    float: right;
+    height: 200px;
+}
+#textarea{
+    margin-top: 5px;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 535px;
+    max-width: 535px;
+}
